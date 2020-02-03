@@ -6,7 +6,7 @@ Objetivo: construir projetos em Python  com código aberto (compartilhavel)
 
 link para o curso : https://pythonpro.com.br/
 
-# inserir selo do Travis
+[![Build Status](https://travis-ci.org/MariaElisaOliveiraMartins/prj_libpythonpro.svg?branch=master)](https://travis-ci.org/MariaElisaOliveiraMartins/prj_libpythonpro)
 
 Vesão do python : 3.8
 
