@@ -1,4 +1,4 @@
-import requests
+import requests   # instalação: (terminal):> pip install request
 
 
 def buscar_avatar(usuario):
