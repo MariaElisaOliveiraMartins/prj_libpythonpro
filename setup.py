@@ -102,7 +102,11 @@ AUTHOR_EMAIL = "mariaelisaoliveiramartins@gmail.com"
 URL = "https://https://github.com/MariaElisaOliveiraMartins/prj_libpythonpro"
 
 
-#VERSION = __import__(PACKAGE).__version__
+'''
+
+VERSION = __import__(PACKAGE).__version__
+
+'''
 
 
 VERSION = 3.8
