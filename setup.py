@@ -100,7 +100,8 @@ DESCRIPTION = "Módulo criado para efeito de treinamento do Pytools no curso Pyt
 AUTHOR = "Maria Elisa"
 AUTHOR_EMAIL = "mariaelisaoliveiramartins@gmail.com"
 URL = "https://https://github.com/MariaElisaOliveiraMartins/prj_libpythonpro"
-VERSION = __import__(PACKAGE).__version__
+#VERSION = __import__(PACKAGE).__version__
+VERSION = 3.8 # substituição da linha acima
 
 setup(
     name=NAME,
