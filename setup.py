@@ -123,7 +123,7 @@ setup(
     license="GNU AFFERO GENERAL PUBLIC LICENSE",
     url=URL,
     packages=find_packages(exclude=["tests.*", "tests"]),
-    package_data=find_package_data(PACKAGE, only_in_packages=False),
+#    package_data=find_package_data(PACKAGE, only_in_packages=True),
     classifiers=[
         "Development Status :: 2 - Pre-Alpha",
         "Environment :: Console",
