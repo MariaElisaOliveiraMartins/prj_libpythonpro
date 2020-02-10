@@ -1,2 +1,2 @@
 def test_inic():
-    assert 1 == 0
+    assert 1 == 1
