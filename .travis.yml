@@ -7,4 +7,4 @@ script:
   - flake8
   - pytest prj_libpythonpro --cov=prj_libpythonpro
 after_success:
-  -
+  -codecov
