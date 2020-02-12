@@ -6,6 +6,6 @@ install:
 script:
   - flake8
   - pytest
-#  - pytest prj_libpythonpro --cov=prj_libpythonpro
+  - pytest --cov=prj_libpythonpro
 after_success:
   -codecov
