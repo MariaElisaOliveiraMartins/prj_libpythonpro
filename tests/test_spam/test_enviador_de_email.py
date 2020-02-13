@@ -8,10 +8,12 @@ def test_criar_enviador_de_email():
 
 def test_rementente():
     enviador = Enviador()
-    resultado = enviador.enviar(
-        'mariaelisaoliveiramartins@gmail.com',
-        'mariaelisaomartins@gmail.com',
-        'Titulo do e-mail enviado',
-        'conteúdo... conteúdo... conteúdo ...'
-        )
-    assert 'mariaelisaoliveiramartins@gmail.com' in resultado
+    destinatarios = ['mariaelisomartins@gmail.com','OMFCO@gmail.com']
+    for dest in destinatarios:
+        resultado = enviador.enviar(
+            'mariaelisaoliveiramartins@gmail.com',
+            dest,
+            'Titulo do e-mail enviado',
+            'conteúdo... conteúdo... conteúdo ...'
+            )
+        assert dest in resultado
