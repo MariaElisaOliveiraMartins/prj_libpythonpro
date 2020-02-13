@@ -8,7 +8,7 @@ def test_criar_enviador_de_email():
 
 def test_rementente():
     enviador = Enviador()
-    destinatarios = ['mariaelisomartins@gmail.com','OMFCO@gmail.com']
+    destinatarios = ['mariaelisomartins@gmail.com', 'OMFCO@gmail.com']
     for dest in destinatarios:
         resultado = enviador.enviar(
             'mariaelisaoliveiramartins@gmail.com',
