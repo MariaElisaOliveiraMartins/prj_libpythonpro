@@ -10,7 +10,8 @@ class Sessao:
         self.lista_usr.append(usuario)
 
     def rollback(self):
-        pass
+        self.lista_usr.clear()
+
 
     def fechar(self):
         pass
