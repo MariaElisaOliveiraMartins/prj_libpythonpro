@@ -14,6 +14,11 @@ def buscar_avatar(usuario):
     print(url)
     return resp.json()['avatar_url']
 
+'''
+
+Substituição desse trecho do código pelo Mock
 
 if __name__ == '__main__':
     print(buscar_avatar('MariaElisaOliveiraMartins'))
+
+'''
