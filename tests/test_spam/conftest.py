@@ -4,11 +4,9 @@ from prj_libpythonpro.spam.db import Conexao
 
 @pytest.fixture
 def conexao():
-    #setup
-    conexao_obj = Conexao()
+    conexao_obj = Conexao()  # Setup
     yield conexao_obj
-    #Tear Down
-    conexao_obj.fechar()
+    conexao_obj.fechar()  # Teardown
 
 
 @pytest.fixture
