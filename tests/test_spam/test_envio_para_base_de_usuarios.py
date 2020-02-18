@@ -50,4 +50,4 @@ def test_parametros_de_spam(sessao):
     enviador_de_spam = EnviadorDeSpam(sessao, enviador)
     enviador_de_spam.enviar_emails('remetente_2@gmail.com', 'Assunto: titulo do e-mail 02', 'Msg: 02 - blá-blá-blá-blá')
     enviador.enviar.assert_called_once_with('remetente_2@gmail.com', 'mariaelisa@gmail.com',
-                                          'Assunto: titulo do e-mail 02', 'Msg: 02 - blá-blá-blá-blá')
+                                            'Assunto: titulo do e-mail 02', 'Msg: 02 - blá-blá-blá-blá')
