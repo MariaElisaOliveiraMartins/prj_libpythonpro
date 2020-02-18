@@ -14,6 +14,7 @@ def buscar_avatar(usuario):
     print(url)
     return resp.json()['avatar_url']
 
+
 '''
 
 Substituição desse trecho do código pelo Mock
