@@ -3,6 +3,7 @@ python:
   - 3.8.0
 install:
   - pip install -q -r requeriments-dev.txt codecov
+  - pip install pytest-mock
 script:
 #  - flake8
   - pytest
