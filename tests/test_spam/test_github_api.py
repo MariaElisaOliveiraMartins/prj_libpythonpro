@@ -16,13 +16,12 @@ def avatar_url(mocker):
     return url
 
 
-def test_buscar_avatar(avatar_url): #teste unitário (isolado no ambiente local)
+def test_buscar_avatar(avatar_url):  # teste unitário (isolado no ambiente local)
     url = github_api.buscar_avatar('MariaElisaOliveiraMartins')
     assert avatar_url == url
 
 
-
-def test_integrado_buscar_avatar(): #teste integrado (acesso ao ambiente externo)
+def test_integrado_buscar_avatar():  # teste integrado (acesso ao ambiente externo)
 
     url = github_api.buscar_avatar('MariaElisaOliveiraMartins')
     assert 'https://avatars1.githubusercontent.com/u/58866392?v=4' == url
