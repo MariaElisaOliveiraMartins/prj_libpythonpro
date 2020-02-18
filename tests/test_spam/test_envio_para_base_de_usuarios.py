@@ -33,8 +33,6 @@ class EnviadorMock(Enviador):
         ]
     ]
 )
-
-
 def test_qtde_de_spam(sessao, lst_usuarios):
     for user in lst_usuarios:
         sessao.salvar(user)
