@@ -15,7 +15,6 @@ class Sessao:
     def rollback(self):
         self.lista_usr.clear()
 
-
     def fechar(self):
         pass
 
