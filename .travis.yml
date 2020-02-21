@@ -2,11 +2,10 @@ language: python
 python:
   - 3.8.0
 install:
-  - pip install -q -r requeriments-dev.txt codecov
-  - pip install pytest-mock
+  - pip install -q pipenv codecov
+  - pipenv sync --dev
 script:
   - flake8
-  - pytest
   - pytest --cov=prj_libpythonpro
 after_success:
   -codecov
